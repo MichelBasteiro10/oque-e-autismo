@@ -1,0 +1,24 @@
+#mitos {
+    margin-bottom: 3rem;
+
+    ul {
+        li {
+            h4 {
+                color: #C93847;
+            }
+
+            .fatos {
+                color: #4CAF50;
+            }
+        }
+    }
+
+    #titulo-mito {
+        color: #333333;
+    }
+
+    #titulo-fato {
+        color: #333333;
+        margin-top: 1.3rem;
+    }
+}

@@ -1,0 +1,31 @@
+header {
+  background-color: #003366;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font: var(--title);
+      color: #ffff;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding-bottom: 1rem;
+
+      li {
+        font: var(--link);
+      }
+    }
+  }
+}
